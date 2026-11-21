@@ -89,20 +89,8 @@ function makeProductCard(product) {
 
   actions.append(previewButton);
 
-  const downloadArea = document.createElement("div");
-  downloadArea.className = "download-area";
-
-  const downloadText = document.createElement("p");
-  downloadText.textContent = "Full notes download (for local testing only):";
-
-  const downloadLink = document.createElement("a");
-  downloadLink.className = "download-link";
-  downloadLink.href = product.fullFile;
-  downloadLink.setAttribute("download", "");
-  downloadLink.textContent = product.downloadLabel;
-
-  downloadArea.append(downloadText, downloadLink);
-  card.append(top, actions, previewPanel, downloadArea);
+  
+  card.append(top, actions, previewPanel);
   return card;
 }
 
