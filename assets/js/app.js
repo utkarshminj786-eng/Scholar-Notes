@@ -12,7 +12,7 @@
 // --------------------------------------------------
 
 // Replace these two values with your own Supabase details.
-const SUPABASE_URL = "https://gsvhkaumjlgxnkzcvopj.supabase.co/rest/v1/";
+const SUPABASE_URL = "https://gsvhkaumjlgxnkzcvopj.supabase.co";
 const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdzdmhrYXVtamxneG5remN2b3BqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTU0OTc5NjUsImV4cCI6MjExMTA3Mzk2NX0.WbFtW9AeyWCPXYafzUPnxxmIN8kRjZrh4XZWF7cn5Rg";
 
 // --------------------------------------------------
