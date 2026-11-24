@@ -167,7 +167,14 @@ async function startPurchase(product, button, status, downloadLink) {
 
           downloadLink.href = verified.download_url;
           downloadLink.hidden = false;
-          downloadLink.click();
+          const autoDownload = document.createElement("a");
+          autoDownload.herf = verified.download_url;
+          autoDownload.download="";
+          autoDownload.style.display = "none";
+
+          document.body.appendChild(autoDownload);
+          autoDownload.click();
+          autoDownload.remove();
 
           status.textContent =
             "Payment successful! Your download is ready. The link expires in 5 minutes.";
