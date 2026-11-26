@@ -168,7 +168,7 @@ async function startPurchase(product, button, status, downloadLink) {
           downloadLink.href = verified.download_url;
           downloadLink.hidden = false;
           const autoDownload = document.createElement("a");
-          autoDownload.herf = verified.download_url;
+          autoDownload.href = verified.download_url;
           autoDownload.download="";
           autoDownload.style.display = "none";
 
